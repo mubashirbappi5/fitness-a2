@@ -7,3 +7,40 @@
 body{
     font-family: "Inter", sans-serif;
 }
+
+/* header section */
+.header{
+    max-width: 1440px;
+    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+}
+.nav-ber{
+    width: 80%;
+    margin: 57px auto;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.menu-bar ul{
+    display: flex;
+    gap: 47px;
+    border: 2px solid blue;
+    border-radius: 39px;
+    padding: 2px 20px;
+}
+.menu-bar ul li{
+    list-style: none;
+    
+}
+.menu-bar >ul a{
+    text-decoration: none;
+    /* color: rgb(255, 255, 255); */
+    font-size: 1.15rem;
+}
+#home-nev{
+    background-color: #E6533C;
+    padding: 2px  14px;
+    margin-left:  -20px ;
+    border-radius: 46px;
+}
