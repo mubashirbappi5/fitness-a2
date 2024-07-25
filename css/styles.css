@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama-nueva');
 *{
     margin: 0;
     padding: 0;
@@ -11,11 +12,13 @@ body{
 /* header section */
 .header{
     max-width: 1440px;
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
+    height: auto;
+    background: linear-gradient(#111111, #262424,#141313);
+    position: relative;
 }
 .nav-ber{
     width: 80%;
-    margin: 57px auto;
+    margin: 0 auto;
   
     display: flex;
     justify-content: space-between;
@@ -25,7 +28,7 @@ body{
 .menu-bar ul{
     display: flex;
     gap: 47px;
-    border: 2px solid blue;
+    border: 1px solid#FFFFFF1A;
     border-radius: 39px;
     padding: 2px 20px;
 }
@@ -35,12 +38,115 @@ body{
 }
 .menu-bar >ul a{
     text-decoration: none;
-    /* color: rgb(255, 255, 255); */
-    font-size: 1.15rem;
+    color: #FFFFFF;
+    font-size: 1rem;
 }
 #home-nev{
     background-color: #E6533C;
     padding: 2px  14px;
     margin-left:  -20px ;
     border-radius: 46px;
+    font-weight: 600;
+}
+.brand{
+    color: rgb(230, 83, 60);
+    font-size: 1.75rem;
+}
+.banner{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 167px;
+}
+.banner-text h1{
+    font-size: 4.75rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+#span1{
+    font-family: 'Miama Nueva';
+  
+   
+}
+.banner-text{
+    width: 520px;
+    height: 282px;
+    margin-top: 96px;
+}
+.banner-text p{
+    font-size: 1rem;
+    color: #FFFFFF80;
+    margin: 28px 0px;
+}
+.primary-btn{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    
+}
+#btn2{
+    border: 1px solid rgb(255, 255, 255);
+    background: none;
+    margin-left: 16px;
+}
+.banner-photo{
+    width: 349px;
+    height: 580px;
+}
+.box-1{
+    width: 195px;
+    height: 98px;
+    border: 1px solid#FFFFFF1A;
+    border-radius: 12px;
+    background: #FFFFFF1A;
+    backdrop-filter: blur(20px);
+    padding: 17px;
+    position: absolute;
+    left: 1020px;
+    top: 160px;
+}
+.box-1 h3{
+    font-size: 2rem;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.box-1 p{
+    color: #FFFFFFA6;
+}
+.box-2{
+    width: 206px;
+    height: 96px;
+    border: 1px solid #FFFFFF1A;
+    background: #3030308A;
+    backdrop-filter: blur(20px);
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    left: 684px;
+    top: 456px;
+   
+}
+.box-2 h3{
+    font-size: 1.50rem;
+    font-weight: 900;
+   color: #FAFAF9;
+}
+.box-2 p{
+    color: #EFEDE8A6;
+    font-size: 1rem;
+
+}
+.crcle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+   
 }
