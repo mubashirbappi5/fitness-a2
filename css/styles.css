@@ -25,6 +25,9 @@ body{
     align-items: center;
 
 }
+#bar{
+    display: none;
+}
 .menu-bar ul{
     display: flex;
     gap: 47px;
@@ -82,7 +85,7 @@ body{
     border-radius: 42px;
     background: rgb(230, 83, 60);
     padding: 16px 40px 16px 40px;
-    font-size: 1rem;
+    font-size: 16px;
     font-weight: 600;
     color: #FFFFFF;
     border: none;
@@ -149,4 +152,86 @@ body{
     background-color: #E6533C;
     border-radius: 50%;
    
+}
+
+
+
+
+/* small device responsive section */
+@media screen and (max-width:576px) {
+    #bar{
+        display: block;
+        color: #FFFFFF;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .header{
+        height: 100%;
+        
+    }
+    .nav-ber{
+        padding-top: 52px;
+        width: 90%;
+    }
+    .banner{
+        flex-direction: column;
+            width: 90%;
+            gap:48px ;
+    }
+    .banner-text{
+        width: 352px;
+        height: 335px;
+    }
+
+    .banner-text h1{
+        font-size: 2.25rem;
+        width: 285px;
+        
+    }
+    .banner-text p{
+        width: 275px;
+    }
+    .btn-section{
+        display: flex;
+    }
+    .primary-btn{
+        width: 169px;
+        height: 54px;
+        
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    }
+    .banner-photo{
+        margin: 0 auto;
+       
+    }
+    .box-1{
+        width: 145px;
+        height: 74px;
+        padding: 9px;
+        left: 270px;
+        top: 620px;
+    }
+    .box-1 h3{
+        font-size: 1.75rem;
+    }
+    .box-1 p{
+        font-size: 9px;
+   
+    
+}
+.box-2{
+    width: 155.74px;
+    height: 72.58px;
+    left: 32px;
+    top: 835px;
+}
+.box-2 h3{
+    font-size: 16px;
+}
+.box-2 p{
+    font-size: 10px;
+}
 }
