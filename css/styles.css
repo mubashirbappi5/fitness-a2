@@ -153,6 +153,94 @@ body{
     border-radius: 50%;
    
 }
+/* hadit section style */
+.habits{
+    max-width: 1440px;
+    background:black;
+
+}
+.habit{
+    width: 80%;
+   
+    margin:0 auto;
+    padding-top: 100px;
+}
+.habit-title{
+    color:#FFFFFF ;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+.habit-dis{
+    color: #FFFFFF80;
+    font-size: .75rem;
+    text-align: center;
+    margin-bottom: 54px;
+}
+.hebit-ilst-item{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.habit-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.habit-img1{
+  border: 1px solid#FFFFFF80;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../images/image\ 3.png);
+  
+ 
+}
+.habit-img2{
+  border: 1px solid #FFFFFF80;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../images/image\ 2.png);
+  
+ 
+}
+.habit-img3{
+  border: 1px solid #FFFFFF80;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../images/image\ 4.png);
+  
+ 
+}
+
+.habit-img4{
+  border: 1px solid #FFFFFF80;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url(../images/image\ 5.png);
+  
+ 
+}
+.habit-text{
+    text-align: center;
+    margin-top: 26px;
+}
+.habit-text h5{
+    font-size: 1.25rem;
+    margin-bottom: 6px;
+    color: #FFFFFF;
+
+
+}
+.habit-text p{
+    font-size: .75rem;
+    color: #FFFFFF80;
+}
 
 
 
@@ -233,5 +321,8 @@ body{
 }
 .box-2 p{
     font-size: 10px;
+}
+.hebit-ilst-item{
+    flex-direction: column;
 }
 }
