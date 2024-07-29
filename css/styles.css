@@ -241,6 +241,49 @@ body{
     font-size: .75rem;
     color: #FFFFFF80;
 }
+/* run section */
+.runs{
+    max-width: 1440px;
+    height: auto;
+    background: black;
+    padding-top: 100px;
+    
+}
+.run{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+}
+.run-text{
+    width: 443px;
+    height: 290px;
+    margin-left: 20px;
+}
+.run-text h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 14px;
+}
+.run-text p{
+     color: #FFFFFF80;
+     font-size: .75rem;
+     margin-bottom: 34px;
+}
+.run-image{
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    background-image: url(../images/run.jpg);
+    background-size: 240%;
+    background-position: 75% 25%;
+}
 
 
 
@@ -324,5 +367,31 @@ body{
 }
 .hebit-ilst-item{
     flex-direction: column;
+}
+.run{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.run-text{
+    width: 287px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 31px;
+}
+.run-text > .primary-btn{
+    width: 287px;
+    height: 54px;
+}
+.run-text h1{
+    font-size: 2rem;
+}
+.run-image{
+    width: 287px;
+    height: 170px;
 }
 }
