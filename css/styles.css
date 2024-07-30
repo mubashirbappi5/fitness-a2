@@ -522,4 +522,36 @@ body{
     width: 287px;
     height: 170px;
 }
+.exercises-image{
+    display: grid;
+    grid-template-columns:repeat(2,auto); 
+    
+    
+   
+}
+.exercises-image>.exer-item:nth-child(1){
+   max-width: 205px;
+}
+.exercises-image>.exer-item:nth-child(3){
+    display: none;
+}
+.exercises-image>.exer-item:nth-child(2){
+   max-width:  205px;
+    background-position:75% 25% ;
+}
+.exercises-image2{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.exercises-image2>.exer-item:nth-child(1){
+    max-width: 205px;
+}
+.exercises-image2>.exer-item:nth-child(2){
+    max-width: 205px;
+}
+
+
+.exercises-image2>.exer-item:nth-child(3){
+    display: none;
+}
 }
