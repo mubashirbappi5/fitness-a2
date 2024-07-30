@@ -284,7 +284,135 @@ body{
     background-size: 240%;
     background-position: 75% 25%;
 }
+/* exercises section style */
+.exercises{
+    max-width: 1440px;
+    height: auto;
+    background-color:black;
+    padding-top: 101px;
 
+}
+.exercises-item{
+    width: 80%;
+    margin: 0 auto;
+}
+.exercises-text{
+    margin-bottom: 58px;
+}
+.exercises-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+    color: #FFFFFF;
+}
+.exercises-text p{
+    font-size: .75rem;
+    color: #FFFFFF80;
+}
+.exercises-image{
+    display: grid;
+    grid-template-columns:repeat(3,auto); 
+    
+    
+   
+}
+.exer-item {
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+.exercises-image>.exer-item:nth-child(1){
+    width: 256px;
+    height: 214px;
+    background-image:linear-gradient(rgba(6, 255, 210, 0.5), rgba(6, 255, 210, 0.5)), url(../images/exercise1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+   
+}
+.exercises-image>.exer-item:nth-child(1)>p{
+    position: absolute;
+    left: 24px;
+    top: 157px;
+    color: #111111;
+    font-weight: 600;
+}
+
+
+.exercises-image>.exer-item:nth-child(2){
+    width: 451px;
+    height: 214px;
+    background-image:linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)), url(../images/exercise2.png);
+    background-size: cover;
+   
+    
+
+}
+.exercises-image>.exer-item:nth-child(2)>p{
+    left: 31px;
+    top: 25px;
+    color: #111111;
+    font-weight: 600;
+}
+.exercises-image>.exer-item:nth-child(3){
+    width: 301px;
+    height: 214px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise3.png);
+    background-size: cover;
+   
+}
+.exercises-image>.exer-item:nth-child(3)>p{
+    left: 27px;
+    top: 146px;
+}
+.exercises-image2{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.exercises-image2>.exer-item:nth-child(1){
+    width: 401px;
+    height: 214px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/exercise4.png);
+    background-size: cover;
+    
+}
+.exercises-image2>.exer-item:nth-child(1)>p{
+    left: 225px;
+    top: 25px;
+}
+.exercises-image2>.exer-item:nth-child(2){
+    width: 256px;
+    height: 214px;
+    background-image:linear-gradient(rgba(66, 255, 0, 0.3), rgba(66, 255, 0, 0.3)), url(../images/exercise5.jpg);
+    background-size: cover;
+   
+}
+.exercises-image2>.exer-item:nth-child(2)>p{
+    left: 34px;
+    top: 144.5px;
+}
+.exercises-image2>.exer-item:nth-child(3){
+    width: 351px;
+    height: 214px;
+    background-image:linear-gradient(rgba(0, 71, 255, 0.3), rgba(0, 71, 255, 0.3)), url(../images/exercise6.jpg);
+    background-size: cover;
+   
+    
+}
+.exercises-image2>.exer-item:nth-child(3)>p{
+    left: 38px;
+    top: 142.5px;
+}
+.exer-item p{
+    color: rgb(255, 255, 255);
+    position: absolute;
+
+}
+
+
+ 
 
 
 
