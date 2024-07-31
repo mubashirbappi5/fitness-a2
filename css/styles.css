@@ -410,7 +410,104 @@ body{
     position: absolute;
 
 }
+/* bma-calculator style */
+.bma-calculator{
+    max-width: 1440px;
+    height: 1440px;
+    padding-top: 78px;
+    background-color:black;
+}
+.bma-cal{
+    width: 100%;
+    height: 487px;
+    margin: 0 auto;
+    margin-top: 88px;
+    border: 2px solid black;
+    background-color: #222222;
+}
+.bma-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    
+   
+}
+.bma-header h1{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    color: #FFFFFF;
+   
+}
+.bma-header p{
+    font-size: .75rem;
+    text-align: left;
+    margin-left: 100px;
+    color: #FFFFFF80;
+}
+.bma-cal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bma-table h2{
+    font-size: 1.75rem;
+    font-weight: 900;
+    margin-bottom: 52px;
+    color: #FFFFFF;
 
+}
+table{
+   
+    border-collapse: collapse;
+}
+th, td{
+    border: 2px solid #FFFFFF1A;
+    padding: 8px;
+    text-align: left;
+    color: #FFFFFF80;
+
+}
+th{
+    font-size: 16px;
+   font-weight: 500;
+   color: #FFFFFF;
+}
+.bma-cal-part{
+    max-width: 577px;;
+}
+.bma-cal-part h3{
+    font-size: 1.75rem;
+   font-weight: 900;
+   margin-bottom: 14px;
+   color: #FFFFFF;
+}
+.bma-cal-part p{
+    font-size: .75rem;
+    margin-bottom: 34px;
+    color: #FFFFFF80;
+}
+
+.bma-cal-input{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+    
+}
+.fector{
+    grid-column: span 2;
+    margin-bottom: 34px;
+
+}
+.hight, .Weight, .age, .sex, .fector{
+   
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #797777;
+}
 
  
 
@@ -553,5 +650,35 @@ body{
 
 .exercises-image2>.exer-item:nth-child(3){
     display: none;
+}
+.bma-cal{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    padding:34px 10px 34px 10px ;
+}
+.bma-cal-part{
+    max-width: 353px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.hight, .Weight, .age, .sex, .fector{
+   
+    padding: 8px 30px 8px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #797777;
+}
+.bma-cal-part h3{
+    margin-top: 34px;
+}
+.bma-cal-part p{
+    margin-left: 45px;
 }
 }
