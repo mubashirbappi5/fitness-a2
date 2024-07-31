@@ -413,7 +413,7 @@ body{
 /* bma-calculator style */
 .bma-calculator{
     max-width: 1440px;
-    height: 1440px;
+    height: auto;
     padding-top: 78px;
     background-color:black;
 }
