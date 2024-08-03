@@ -508,8 +508,85 @@ th{
     border: none;
     color: #797777;
 }
+.our-team{
+  max-width: 1440px;
+    height: auto;
+    background: black;
+    margin: 0 auto;
+    padding-top: 88px;
+    
+}
+.team{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+   
+}
+.team-text{
+    text-align: center;
+    margin-bottom: 58px;
+}
+.team-text h2{
+    font-size: 3rem;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.team-text p{
+    font-size: .75rem;
+    color: #FFFFFF80;
 
- 
+}
+.team-photo{
+    width: 100%;
+    height: auto;
+    padding: 20px;
+   
+    border-radius: 18px;
+    background-color: #FFFFFF1A;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+}
+.team-box-item{
+    width: 310px;
+    height: 272px;
+   
+    border-radius: 18px;
+}
+#team1{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url(../images/trainer1.png);
+    background-position: center;
+    background-size: cover;
+}
+#team2{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url(../images/trainer2.png);
+    background-position: center;
+    background-size: cover;
+}
+ #team3{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url(../images/trainer3.png);
+   
+    background-position: center;
+    background-size: cover;
+ }
+ #team4{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url(../images/trainer4.png);
+    background-position: center;
+    background-size: cover;
+ }
+ #team5{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) , url(../images/trainer5.png);
+    background-position: center;
+    background-size: cover;
+
+ }
+ #team6{
+    background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url(../images/trainer6.png);
+    background-position: center;
+    background-size: cover;
+
+ }
 
 
 
@@ -698,8 +775,9 @@ th{
 .bma-cal-part h3{
     margin-top: 34px;
 }
-.bma-cal-part p{
-    
+.team-photo{
+    grid-template-columns: repeat(1,auto);
 }
+
 
 }
