@@ -549,7 +549,7 @@ th{
     gap: 20px;
 }
 .team-box-item{
-    width: 310px;
+   
     height: 272px;
    
     border-radius: 18px;
@@ -777,6 +777,7 @@ th{
 }
 .team-photo{
     grid-template-columns: repeat(1,auto);
+    
 }
 
 
