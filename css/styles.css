@@ -508,6 +508,39 @@ th{
     border: none;
     color: #797777;
 }
+/* challenge part */
+.food-diet{
+   max-width:1440px;
+    height: auto;
+    background-color: black;
+    padding-top: 88px;
+
+   
+}
+.diet-plan{
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+    background:linear-gradient(rgba(14, 14, 16, 0.3), rgba(14, 14, 16, 0.3)), url(../images/chlangepart.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.diet-plan h1{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #FFFFFF;
+
+}
+.diet-plan p{
+    font-size: 1rem;
+    color: #FFFFFF80;
+}
+/* OUR TEAM SECTION */
 .our-team{
   max-width: 1440px;
     height: auto;
@@ -750,8 +783,11 @@ th{
     margin-bottom: 31px;
 }
 .run-text > .primary-btn{
-    width: 287px;
+    width: 80%;
     height: 54px;
+    border-radius: 14px;
+    margin-left: 10px;
+   
 }
 .run-text h1{
     font-size: 2rem;
@@ -805,12 +841,15 @@ th{
     width: 90%;
     padding:20px 10px 20px 10px ;
 }
+.bma-header p{
+    text-align: center;
+    margin-left: 0px;
+}
 .bma-cal-part{
    width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+   
   
 }
 .bma-cal-input{
@@ -820,6 +859,13 @@ th{
    margin: 0 auto;
   
    
+}
+.bma-cal-part h3{
+    text-align: center;
+}
+.bma-cal-part p{
+    text-align: center;
+
 }
 .hight, .Weight, .age, .sex, .fector{
    
@@ -858,6 +904,17 @@ th{
 hr{
     width: 100%;
     margin: 0 auto;
+}
+.diet-plan{
+    gap: 20px;
+}
+.diet-plan h1{
+    font-size: 3rem;
+}
+.diet-plan p{
+    font-size: 0.75rem;
+    text-align: center;
+    color: #FAFAF9;
 }
 
 
