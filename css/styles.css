@@ -31,7 +31,7 @@ body{
 .menu-bar ul{
     display: flex;
     gap: 47px;
-    border: 1px solid#FFFFFF1A;
+    border: 1px solid #FFFFFF1A;
     border-radius: 39px;
     padding: 2px 20px;
 }
@@ -582,6 +582,7 @@ th{
     gap: 20px;
 }
 .team-box-item{
+    position: relative;
    
     height: 272px;
    
@@ -618,6 +619,20 @@ th{
     background:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)) ,url(../images/trainer6.png);
     background-position: center;
     background-size: cover;
+
+ }
+ .team-box-item >.box-text{
+    position: absolute;
+    left:15px ;
+    top: 190px;
+
+ }
+ .box-text h3{
+  
+    color:#FFFFFF;
+ }
+ .box-text p{
+    color:#FFFFFF80;
 
  }
  /* footer section */
